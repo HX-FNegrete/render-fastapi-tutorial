@@ -1,19 +1,23 @@
-# Tutorial Render + FastAPI
-![image](images/fastapi.png)
+# Data Projects + Tutorial Render y FastAPI
+![logo](https://builtin.com/sites/www.builtin.com/files/styles/og/public/2022-11/data-science-projects.jpg)
 
-## Crear entorno virtual
+# Como levantar un proyecto de Data general
+
+## 1) Crear entorno virtual
 Todas las dependencias y librerías van a quedar instaladas acá:
 ```
 python -m venv venv
 ```
-## Crear archivos necesarios
+Esto nos posibilita solo trabajar con las librerías necesarias del proyecto, y no con todas las que se tengan instaladas localmente. Permite que otros usuarios o compañeros de trabajo puedan replicar e instalar sencillamente lo mismo que nosotros, y que no interfiera con las cosas que tengan también previamente descargadas. 
+
+## 2) Crear archivos necesarios
 Desde la consola Gitbash:
 ```
 touch .gitignore
 touch main.py
 touch requirements.txt
 ```
-## venv + .gitignore
+## 3) venv + .gitignore
 Poner el entorno virtual dentro del archivo .gitignore:
 ```
 /venv
@@ -23,7 +27,13 @@ Si no funciona, probar de distintas formas:
 /venv
 venv
 venv/
+
 ```
+
+# Tutorial de Render y FastApi
+
+![image](images/fastapi.png)
+
 ## Git init + Instalaciones
 Desde la misma terminal de VSCode, realizar los siguientes pasos:
 ```
@@ -45,6 +55,7 @@ Cualquier persona que quiera usar nuestro código, va a poder instalar lo mismo 
 ## main.py
 Ahora ya esta listo para poder codear toda tu API con Fastapi.
 ## Creación repo Github
+Para más información, se puede leer el documento en el siguiente [enlace](https://docs.google.com/document/d/1CoqN0vZV9Dx7KZZWOk26XsIa5QiNMPUP/edit?usp=sharing&ouid=104417599994404241754&rtpof=true&sd=true)
 - Crear un nuevo repo en Github. Dejarlo en modo público.
 ![image](images/repo.jpg)
 - Seguir los pasos para conectarlo con nuestro repositorio local
