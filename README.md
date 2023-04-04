@@ -55,7 +55,7 @@ Cualquier persona que quiera usar nuestro código, va a poder instalar lo mismo 
 ## main.py
 Ahora ya esta listo para poder codear toda tu API con Fastapi.
 ## Creación repo Github
-Para más información, se puede leer el documento en el siguiente [enlace](https://docs.google.com/document/d/1CoqN0vZV9Dx7KZZWOk26XsIa5QiNMPUP/edit?usp=sharing&ouid=104417599994404241754&rtpof=true&sd=true)
+Para más información, se puede leer el documento en el siguiente [enlace](https://drive.google.com/file/d/1lzKIUTFJ2lnKluZ21hfResGvTJU7fA2k/view?usp=sharing)
 - Crear un nuevo repo en Github. Dejarlo en modo público.
 ![image](images/repo.jpg)
 - Seguir los pasos para conectarlo con nuestro repositorio local
